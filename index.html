@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <button id="" onclick="sub()">click me</button>
+    <button onclick="sub()">click me</button>
     <div id="container"></div>
     <script>
         let count=0
@@ -14,8 +14,8 @@ function sub(){
     count++
     const value=document.createElement('p')
    value.textContent="You clicked"+count+"times"
-   const hello=document.getElementById('container')
-   hello.appendChild('value');
+   const container=document.getElementById('container')
+   container.appendChild(value);
 
 }
 
