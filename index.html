@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="" onclick="sub()">click me</button>
+    <div id="container"></div>
+    <script>
+        let count=0
+function sub(){
+    count++
+    const value=document.createElement('p')
+   value.textContent="You clicked"+count+"times"
+   const hello=document.getElementById('container')
+   hello.appendChild('value');
+
+}
+
+    </script>
+</body>
+</html>
